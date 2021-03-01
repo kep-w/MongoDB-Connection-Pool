@@ -11,7 +11,9 @@ The connection pool parameters are set during initialization, including:
 - Database address, 
 - timeout period, 
 - maximum number of connections. 
+
 for example:
+
 `Golang
 func init() {
 	once.Do(func() {
