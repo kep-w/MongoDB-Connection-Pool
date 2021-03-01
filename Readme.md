@@ -14,7 +14,7 @@ The connection pool parameters are set during initialization, including:
 
 for example:
 
-`Golang
+```
 func init() {
 	once.Do(func() {
 		DBPool = &MongoPool{
@@ -26,6 +26,6 @@ func init() {
 		}
 	})
 }
-`
+```
 
 Note: You can use function once.Do to ensure that the connection pool is only created once.
